@@ -16,18 +16,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="TwitterLogoBlue" translatesAutoresizingMaskIntoConstraints="NO" id="Ic5-wQ-buC">
-                                <rect key="frame" x="46" y="169" width="282" height="328"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="TwitterLogoBlue" translatesAutoresizingMaskIntoConstraints="NO" id="Ic5-wQ-buC">
+                                <rect key="frame" x="16" y="132" width="343" height="371"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ic5-wQ-buC" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="180" id="5qh-jz-mPJ"/>
+                            <constraint firstItem="Ic5-wQ-buC" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="47" id="E9T-b6-Rsc"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="Ic5-wQ-buC" secondAttribute="bottom" constant="180" id="gvC-FU-bwq"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="trailing" secondItem="Ic5-wQ-buC" secondAttribute="trailing" constant="47" id="pwB-ai-059"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="46" y="329"/>
+            <point key="canvasLocation" x="45.600000000000001" y="328.78560719640183"/>
         </scene>
     </scenes>
     <resources>
